@@ -1,0 +1,61 @@
+body {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.contents {
+	width: 100%;
+	top : 0;
+	bottom: 50px;
+	position: absolute;
+}
+
+.main {
+	background-color: skyblue;
+	height: 100%;
+	left:200px;
+	right:300px;
+	display: inline-block;
+	position: absolute;
+}
+
+.main header {
+	background-color: lightgray;
+	height: 30px;
+	width: 100%;
+	top: 0;
+	position: relative;
+}
+
+.left {
+	background-color: pink;
+	height: 100%;
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.right {
+	background-color: greenyellow;
+	height: 100%;
+	width: 300px;
+	right:0;
+	display: inline-block;
+	position: absolute;
+	
+}
+
+footer {
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
