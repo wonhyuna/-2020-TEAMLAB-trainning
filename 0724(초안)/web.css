@@ -1,0 +1,344 @@
+*{
+	margin: 0 auto;
+	text-align: center;
+	flex-shrink: 0;
+}
+ footer {
+	margin: 0 auto;
+	text-align: center;
+	flex-shrink: 0;
+}
+
+body{
+	margin: 0;
+}
+
+.main-detail{
+	position: relative;
+}
+
+header {
+	margin: auto;
+	display: flex;
+	border: 1px solid gray;
+	width: 80%;
+	height: 80px;
+	align-items:center;
+	justify-content: space-between;
+	position: relative;
+	flex-shrink: 0;
+	
+}
+
+.main_main{
+	background-color: #EAEAEA;
+}
+
+.search{
+	border:1px solid black;
+	width: 400px;
+	padding: 10px 5px 10px 5px;
+}
+
+
+header ul{
+	display: flex;
+	width: 115%;
+	height: 100%;
+} 
+
+header ul > li{
+	font-size: 20px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.sign_in {
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.sign_up{
+	background-color: #6AB048;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+}
+
+.box1{
+	display: inline-block;
+	right: 250px;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	
+
+}
+
+.box2{
+	display: inline-block;
+	right: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+
+}
+
+.box3{
+	display: inline-block;
+	right: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+
+}
+
+#spec {
+	border-right: 1px solid black;
+	background-color: #CCCCCC;	
+}
+
+.img1{
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+.img2{
+	width: 30px;
+	height: 30px;
+
+}
+
+.name {
+	display: flex;
+	margin-left: 40px;
+	font-size: 30px;
+	color: #0000CD;
+}
+
+.real_main {
+	position: absolute;
+	left: 200px;
+}
+
+
+.table1 {
+	width: 1250px;
+	height: 230px;
+	display: table;
+}
+
+.table1_1{
+	background-color:#F6F6F6;
+}
+
+.table1_2{
+	background-color:#D4F4FA;
+}
+
+.text {
+	color:#0000CD;
+}
+
+
+.table2 {
+	width: 1250px;
+	height: 100%;
+	display: table;
+}
+
+.table2_1{
+	height: 20px;
+	background-color: #CCCCCC;
+	border-color: #CCCCCC;
+}
+
+.table2_2{
+	height: 150px;
+}
+
+.table2_2 > td {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+.know {
+	font-size: 25px;
+	position: absolute;
+	left: 0;
+	
+}
+
+.buttons {
+	position: absolute;
+	top: 85px;
+	left: 0;
+	font-size: 20px;
+	margin-top: 35px;
+}
+.list {
+	position: absolute;
+	top: 85px;
+	right: 0;
+	font-size: 20px;
+	margin-top: 35px;
+	width: 40px;
+	height: 30px;
+}
+
+.small_menu{
+	position: absolute;
+	width: 1250px;
+	top: 40px;
+	font-size: 20px;
+	border: 1px solid;
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
+	border-bottom: 7px solid #DAA520;
+}
+
+.compare {
+	background-color: #6AB048;
+	width: 40px;
+	height: 30px;
+}
+
+.branch {
+	width: 150px;
+	height: 30px;
+}
+
+.web {
+	display: inline-block;
+	color: #0000CD;
+}
+.aside_real {
+	display: inline-block;
+	position: absolute;
+	right: 180px;
+	top: 0;
+	flex-shrink: 0;
+	height: 600px;
+	padding: 20px;
+	border-left: 1px solid black;
+	
+}
+.aside1 {
+	text-align: left;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+	border-right: 5px solid red;
+}
+.aside2 {
+	text-align: left;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+	color: #0000CD;
+}
+.aside3 {
+	text-align: left;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+	color: #0000CD;
+}
+.aside4 {
+	text-align: left;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+	color: #0000CD;
+}
+.aside5 {
+	text-align: left;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+	color: #0000CD;
+}
+.aside6 {
+	text-align: left;
+}
+.aside7 {
+	text-align: left;
+
+}
+.aside8 {
+	text-align: left;
+}
+.aside8_1 {
+	color: #0000CD;
+}
+.aside9 {
+	text-align: left;
+
+}
+.aside10 {
+	text-align: left;
+}
+
+.link_1{
+	width: 150px;
+	height: 25px;
+}
+
+.link_2{
+	width: 30px;
+	height: 25px;
+}
+
+
+.down {
+	width: 200px;
+	height: 30px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 350px;
+}
+
+footer > div {
+	display: inline-block;
+}
+footer ul{
+	display: flex;
+	height: 100%;
+} 
+
+footer ul > li{
+	font-size: 15px;
+	height: 100%;
+	display: inline-block;
+}
+
+.left_s > ul {
+	display: flex;
+	width: 150%;
+}
+.right_s > ul {
+	display: flex;
+	width: 150%;
+}
+
+.middle_s {
+	display: inline-block;
+	margin: 0 5px 0 150px;
+}
+
+.middle_s > img {
+	height: 30px;
+	width: 30px;
+
+}
